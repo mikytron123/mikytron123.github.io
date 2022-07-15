@@ -1,0 +1,51 @@
+# section information
+section:
+  name: Work Experience
+  id: experiences
+  enable: true
+  weight: 3
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true 
+
+# Your experiences
+experiences:
+- company:
+    name: Canvass AI
+    url: "https://www.canvass.io/"
+    # company overview
+    #overview: Canvass AI provides an Artificial Intelligence platform for industrial companies to transform their operations 
+  positions:
+  - designation: Machine Learning Implementation Specialist
+    start: Jun 2021
+    # don't provide end date if you are currently working there. It will be replaced by "Present"
+    # end: Dec 2020
+    # give some points about what was your responsibilities at the company.
+    responsibilities:
+    - Summarised results of AI journey in Executive summary
+    - Deployed and monitored 40 Machine Learning models using internal Canvass API.
+    - Consult clients in their AI Journey through the Canvass Platform
+
+- company:
+    name: Overbond.
+    url: "https://www.overbond.com/"
+  positions:
+  - designation: Data Scientist
+    start: May 2020
+    end: Jan 2021
+    responsibilities:
+    - Deployed Python script to AWS ECS for processing of a batch dataset every 15 minutes
+    - Helped create AWS Lambda Python functions for storing SVR bond pricing model results
+    - Performed backtesting of bond pricing algorithm to find optimal parameters with best coverage and model accuracy
+
+- company:
+    name: Capco
+    url: "https://www.capco.com/"
+  positions:
+  - designation: Junior Data Scientist
+    start: Sept 2019
+    end: Dec 2019
+    responsibilities:
+    - Built XGBoost model for classifying credit limit overage over a 3-month time window
+    - Implemented custom Python tool for anonymizing datasets using the DataFly algorithm
+    - Implemented SMOTE oversampling algorithm using PySpark for better handling of imbalanced dataset

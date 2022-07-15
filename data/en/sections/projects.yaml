@@ -1,0 +1,39 @@
+# section information
+section:
+  name: Projects
+  id: projects
+  enable: true
+  weight: 5
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true
+
+# filter buttons
+buttons:
+- name: All
+  filter: "all"
+- name: Professional
+  filter: "professional"
+- name: Hobby
+  filter: "hobby"
+
+# your projects
+projects:
+- name: Machine Learning Web App
+  logo: /images/sections/skills/python.png
+  repo: https://github.com/mikytron123/ML-webapp # If your project is a public repo on GitHub, then provide this link. it will show star count.
+  #url: ""  # If your project is not a public repo but it has a website or any external details url then provide it here. don't provide "repo" and "url" simultaneously.
+  summary: Machine Learning Web application for making predictions for the UCI adult dataset. This project uses C# Blazor for the frontend and Python FastAPI for backend
+  tags: ["professional", "Machine Learning"]
+
+- name: Apex Legends Discord Bot
+  logo: /images/sections/skills/python.png
+  repo: https://github.com/mikytron123/ApexLegendDiscordBot
+  summary: Discord bot for web scraping EA Apex Legends news site and showing latest article and video.
+  tags: ["hobby", "Web Scraping"]
+
+- name: California Housing Web App
+  logo: /images/sections/skills/python.png
+  repo: https://github.com/mikytron123/California-housing-webapp
+  summary: Machine Learning Web application for making predictions for the California Housing dataset. This project uses streamlit for the frontend and bentoml for backend
+  tags: ["professional","Machine Learning"]

@@ -1,0 +1,16 @@
+# section information
+section:
+  name: Education
+  id: education
+  template: sections/education.html # Use "sections/education-alt.html for alternate template.
+  enable: true
+  weight: 4
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true
+
+degrees:
+- name: Joint Statistics / Joint Combinatorics & Optimization 
+  icon: fa-university
+  institution:
+    name: University of Waterloo
