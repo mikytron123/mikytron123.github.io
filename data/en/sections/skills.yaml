@@ -17,6 +17,6 @@ skills:
 - name: Databases
   summary: Capable of working with SQL databases such as Postgresql, MySQL and NoSQL Databases such as AWS Dynamodb
 - name: Cloud Computing
-  summary: Worked primarily with AWS(ECS, Lambda, Glue, S3) and Azure services(Blob Storage).
+  summary: Worked primarily with AWS (ECS, Lambda, Glue, S3) and Azure services (Blob Storage).
 
 
