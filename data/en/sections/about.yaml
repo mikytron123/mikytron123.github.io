@@ -10,15 +10,12 @@ section:
 # your designation
 designation: Data Scientist
 # your company information
-company:
-  name: Canvass AI.
-  url: "https://www.canvass.io/"
 
 # your resume. this file path should be relative to you "static" directory
 #resume: "files/resume.pdf"
 
 # a summary about you
-summary: 'I am a passionate data scientist with 3 years of working experience. I have worked in the financial and industrial data science sector. In my spare time, I work on open source projects with Python and C#.'
+summary: 'I am a passionate data scientist with 5 years of working experience. I have worked in the financial and industrial data science sector. In my spare time, I work on open source projects with Python and C#.'
 
 # your social links
 # give as many as you want. use font-awesome for the icons.
